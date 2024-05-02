@@ -1,5 +1,5 @@
 import userSchema from '../components/yupUser';
-import Style from '../pages/Style.css'
+import  '../pages/Style.css'
 
 function Formyup (){
 
