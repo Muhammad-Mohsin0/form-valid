@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(163, 206, 207);
+}
+.container{
+    display: flex;
+    width: 550px;
+    height: 380px;
+    background: rgb(252, 252, 252);
+    border-radius: 10px;
+    margin-top: 1%;
+    box-shadow: 0 4px 8px 0 rgba(34, 24, 24, 0.341);
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+   
+}
+h1{
+    padding-left: 25%;
+    margin-top: 5px;
+}
+form{
+    width: 480px;
+    height: 300px;
+}
+#username{
+    width: 100%;
+    border: 1px solid rgb(223, 222, 222);;
+    border-radius: 5px;
+
+    padding: 7px 10px;
+    margin: 8px 0;
+}
+#email{
+    width: 100%;
+    border: 1px solid rgb(223, 222, 222);;
+    border-radius: 5px;
+
+    padding: 7px 10px;
+    margin: 8px 0;
+  }
+  #cell{
+    width: 100%;
+    border: 1px solid rgb(223, 222, 222);;
+    border-radius: 5px;
+
+    padding: 7px 10px;
+    margin: 8px 0;
+  }
+#password{
+    width: 100%;
+    border: 1px solid rgb(223, 222, 222);;
+    border-radius: 5px;
+
+    padding: 7px 10px;
+    margin: 8px 0;
+}
+
+#button{
+    font-size: large;
+    background: rgb(63, 173, 63);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    width: 480px;
+    height: 12%;
+}
