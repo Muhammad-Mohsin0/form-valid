@@ -11,20 +11,21 @@ body{
 }
 .container{
     display: flex;
+    justify-content: center;
     width: 550px;
-    height: 380px;
+    height: 600px;
     background: rgb(252, 252, 252);
     border-radius: 10px;
-    margin-top: 1%;
+    
     box-shadow: 0 4px 8px 0 rgba(34, 24, 24, 0.341);
-    justify-content: center;
-    align-items: center;
-    margin-top: 25%;
+    margin-top: 10%;
    
 }
-h1{
-    padding-left: 25%;
-    margin-top: 5px;
+h1{ 
+    padding-top: 20px;
+    padding-left: 120px;
+   
+    
 }
 form{
     width: 480px;
@@ -34,33 +35,33 @@ form{
     width: 100%;
     border: 1px solid rgb(223, 222, 222);;
     border-radius: 5px;
-
+    margin-top: 7%;
     padding: 7px 10px;
-    margin: 8px 0;
+    
 }
 #email{
     width: 100%;
     border: 1px solid rgb(223, 222, 222);;
     border-radius: 5px;
+    margin-top: 7%;
 
     padding: 7px 10px;
-    margin: 8px 0;
-  }
+}
   #cell{
     width: 100%;
     border: 1px solid rgb(223, 222, 222);;
     border-radius: 5px;
+    margin-top: 7%;
 
     padding: 7px 10px;
-    margin: 8px 0;
   }
 #password{
     width: 100%;
     border: 1px solid rgb(223, 222, 222);;
     border-radius: 5px;
+    margin-top: 7%;
 
     padding: 7px 10px;
-    margin: 8px 0;
 }
 
 #button{
@@ -69,7 +70,13 @@ form{
     color: white;
     border-radius: 5px;
     border: none;
-    margin-top: 5px;
+    margin-top: 15px;
     width: 480px;
-    height: 12%;
+    height: 12%; 
+    margin-top: 7%;
+
+}
+.errors{
+    color: red;
+   
 }
