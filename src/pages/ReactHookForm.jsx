@@ -3,19 +3,11 @@ import { useForm } from "react-hook-form";
 import "../pages/Style.css";
 
 const ReactForm = () => {
-  const { register, handleSubmit,setError, formState: { errors, isSubmitting } } = useForm();
+  const { register, handleSubmit, formState: { errors, isSubmitting } } = useForm();
 
   const onSubmit = async (data) => {
-    try{
-      await new Promise ((resolve)=> setTimeout(resolve,1000));
-      throw new Error();
-      console.log(data);
-    } catch(error){
-      setError("email", {
-        message :"This email is already taken",
-      })
-    }
-  
+    await new Promise ((resolve)=> setTimeout(resolve,1000)); 
+    console.log(data);
   };
 
   return (
@@ -80,6 +72,7 @@ const ReactForm = () => {
         {errors.mobile && <div className="errors">{errors.mobile.message}</div>}
 
         <button disabled={isSubmitting} type="submit" id="button" > {isSubmitting ? "Loading ..." :"Submit"}</button>
+        
       </form>
     </div>
   );
