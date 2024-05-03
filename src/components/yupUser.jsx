@@ -8,7 +8,7 @@ const userSchema =yup.object().shape({
     .matches(/[A-Z]/,"You must enter at least one Uppercase letter.")
     .matches(/[#?!@$%^&*-]/, "You must enter at least one symbols.")
     .required("Password is required"),
-    phone:yup.string().min(11).required("Phone number is required"),
+    
 })
 
 export default userSchema;
