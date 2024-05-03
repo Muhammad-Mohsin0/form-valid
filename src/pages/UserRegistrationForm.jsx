@@ -18,7 +18,8 @@ const UserRegistrationForm =()=>{
     const {register,handleSubmit,formState:{errors,isSubmitting},}= useForm({resolver:yupResolver(userSchema)})
 
     const onSubmit =async values =>{
-        await new Promise ((resolve)=> setTimeout(resolve,1000));  console.log(values)
+        await new Promise ((resolve)=> setTimeout(resolve,1000));  
+        console.log(values)
     } 
     return (
       
