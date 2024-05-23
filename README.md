@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Output Form 
+![Formik+yup Form](https://github.com/Muhammad-Mohsin0/form-valid/assets/154534482/1335b66c-01f7-45f2-98c1-8fb4a946dcd3)
+
